@@ -4,7 +4,7 @@
             "path": "repo",
             "collection-id": "org.test.Stable",
             "suggested-repo-name": "flat-manager-test",
-            "runtime-repo-url": "https://dl.flathub.org/repo/flathub.flatpakrepo",
+            "runtime-repo-url": "https://dl.openpak.org/repo/openpak.flatpakrepo",
             "gpg-key": "@GPG_KEY@",
             "base-url": null,
             "subsets": {

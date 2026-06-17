@@ -2,7 +2,7 @@ FROM quay.io/fedora/fedora:latest
 
 # Install Rust, Cargo, and run-tests.py's dependencies
 RUN dnf install -y rust cargo flatpak flatpak-builder ostree-devel libpq-devel
-RUN flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+RUN flatpak remote-add flathub https://openpak.org/repo/openpak.flatpakrepo
 RUN flatpak install --noninteractive flathub org.freedesktop.Platform//24.08 org.freedesktop.Sdk//24.08
 
 # Use the test config.json and configure it with a GPG key
